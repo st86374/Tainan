@@ -1,0 +1,396 @@
+
+/*header*/
+.bg-img {
+	background: url(../img/food.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 380px;
+	position: absolute;
+	z-index: -1;
+}
+.header h1 {
+	padding-top: 89px;
+	font-size: 40px;
+	color: #FFFFFF;
+	letter-spacing: 3.89px;
+	text-align: center;
+	margin: 0px;
+	font-weight: 500;
+}
+#areaId {
+	margin-top: 91px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 300px;
+	height: 30px;
+	background: rgba(255,255,255,0.70);
+	border: 3px solid #FFFFFF;
+	border-radius: 3px;
+	font-size: 14px;
+}
+.hotRank {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 79px;
+	background: #FFFFFF;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+	border-radius: 5px;
+}
+.hotRank p {
+	font-family: AppleSystemUIFont;
+	font-size: 18px;
+	color: #000000;
+	padding-left: 100px;
+	padding-top: 20px;
+	margin: 0px;
+}
+.btn1, .btn2, .btn3, .btn4 {
+	border-radius: 5px;
+	width: 130px;
+	height: 42px;
+	float: left;
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	color: #FFFFFF;
+	border: 0;
+	margin-top: 14px;
+}
+.btn1 {
+	background: #8A82CC;
+	cursor: pointer;
+	margin-left: 85px;
+}
+.btn2 {
+	background: #FFA782;
+	cursor: pointer;
+	margin-left: 85px;
+}
+.btn3 {
+	background: #F5D105;
+	cursor: pointer;
+	margin-left: 85px;
+}
+.btn4 {
+	background: #559AC8;
+	cursor: pointer;
+	margin-left: 85px;
+	margin-left: 85px;
+}
+/*hr*/
+hr {
+	border: 1px dashed #559AC8;
+	width: 310px;
+}
+.icons-down {
+	align-content: center;
+	position: relative;
+	top: -20px;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: 1px solid #559AC8;
+	height: 24px;
+	width: 24px;
+	background: #fff url(http://i.imgur.com/fYLc1at.png)center no-repeat;
+}
+.icons-down img {
+	margin: 0 auto;
+}
+.hr-padding {
+	padding-top: 37px;
+}
+/*container*/
+.title {
+	text-align: center;
+	font-family: PingFangTC-Regular;
+	font-size: 36px;
+	color: #8A82CC;
+	padding-top: 65px;
+	padding-bottom: 24px;
+}
+.container {
+	width: 320px;
+	margin: 0 auto;
+}
+.box {
+    width: 304px;
+    height: 160px;
+	background: #FFFFFF;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+	float: left;
+	margin: 0 8px;
+	margin-bottom: 36px;
+}
+.box-top {
+    position: relative;
+    height: 50px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2825b+0,e55b2b+50,f07146+100;Red+3D+%232 */
+background: #f2825b; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2825b 0%, #e55b2b 50%, #f07146 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f2825b 0%,#e55b2b 50%,#f07146 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f2825b 0%,#e55b2b 50%,#f07146 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2825b', endColorstr='#f07146',GradientType=0 ); /* IE6-9 */
+
+}
+
+.box h3 {
+	left: 22px;
+	bottom: 14px;
+	font-family: SFNSDisplay;
+	font-size: 24px;
+	color: #fff;
+	position: absolute;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.60);
+}
+.box h5 {
+	right: 24px;
+	bottom: 11px;
+	font-family: PingFangTC-Regular;
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	clear: both;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.60);
+}
+.box-bottom {
+	position: relative;
+}
+.box-bottom p {
+	font-size: 12px;
+}
+.time, .location, .phone {
+	margin-left: 23px;
+}
+.time {
+	background: url(http://i.imgur.com/c7dEqTN.png)no-repeat;
+	margin-top: 15px;
+	height: 18px;
+	padding-left: 25px;
+}
+.location {
+	background: url(http://i.imgur.com/zgFK9CI.png) no-repeat;
+	margin-top: 13px;
+	height: 20px;
+	padding-left: 25px;
+}
+.phone {
+	background: url(http://i.imgur.com/h3wYNhW.png)no-repeat;
+	margin-top: 12px;
+	height: 20px;
+	bottom: 20px;
+	padding-left: 25px;
+	margin-left: 25px;
+}
+.ticket {
+	background: url(http://i.imgur.com/BD0hO8R.png)no-repeat;
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	height: 20px;
+	padding-left: 25px;
+}
+
+
+
+/*btn_gotoTop*/
+.gotoTop{
+	position: fixed;
+	right: 28px;
+	bottom: 105px;
+}
+
+/*pagination*/
+.pagination {
+	display: flex;
+	margin-top: 39px;
+	margin-bottom: 39px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pagePrev,
+.pageNext {
+	width: 50px;
+	height: 24px;
+	text-align: center;
+
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+.pagePrev a,
+.pageNext a {
+	display: block;
+	padding: 5px;
+	font-size: 14px;
+	color: #4a4a4a;
+	text-decoration: none;
+}
+
+.pagePrev a:hover,
+.pageNext a:hover {
+	color: #559ac8;
+	font-weight: bold;
+}
+
+.pageItem {
+	text-align: center;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.pageLink {
+	display: block;
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+	font-size: 14px;
+	color: #4a4a4a;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.pageLink:hover {
+	background-color: #559ac8;
+	color: #ffffff;
+	font-weight: bold;
+	transition: all 0.4s;
+}
+
+.pageLink.active {
+	pointer-events: none;
+	cursor: default;
+	background-color: #559ac8;
+	border-radius: 50%;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
+
+/*footer*/
+footer {
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	height: 90px;
+	background: #559AC8;
+	bottom: 0;
+	clear: both;
+}
+.white_text {
+	font-family: AppleSystemUIFont;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-top: 24px;
+}
+.yellow_text {
+	font-family: AppleSystemUIFont;
+	font-size : 14px;
+	color : #FFD366;
+	padding-top : 15px;
+}
+
+@media(min-width: 480px) {
+#areaId {
+	width: 320px;
+	height: 32px;
+	font-size: 16px;
+}
+.hotRank {
+	width: 450px;
+	height: 170px;
+}
+.hotRank p {
+	padding-left: 26px;
+}
+.btn1 {
+	margin-left: 80px;
+}
+.btn2 {
+	margin-left: 30px;
+}
+.btn3 {
+	margin-left: 80px;
+}
+.btn4 {
+	margin-left: 30px;
+}
+hr {
+	width: 450px;
+}
+.container {
+	width: 480px;
+}
+.box {
+	width: 464px;
+	height: 160px;
+}
+.box-bottom p {
+	font-size: 13px;
+}
+.piture {
+	width: 464px;
+}
+}
+
+@media(min-width: 768px) {
+.hotRank {
+	width: 730px;
+	height: 112px;
+}
+.btn1 {
+	margin-left: 51px;
+}
+.btn2 {
+	margin-left: 30px;
+}
+.btn3 {
+	margin-left: 30px;
+}
+.btn4 {
+	margin-left: 30px;
+}
+hr {
+	width: 750px;
+}
+.container {
+	width: 768px;
+}
+.box {
+	width: 368px;
+	height: 160px;
+}
+.box-bottom p {
+	font-size: 14px;
+}
+.piture {
+	width: 368px;
+}
+}
+
+@media(min-width: 1024px) {
+#areaId {
+	width: 452px;
+	height: 48px;
+	font-size: 18px;
+}
+.hotRank {
+	width: 800px;
+	height: 112px;
+}
+hr {
+	width: 900px;
+}
+.container {
+	width: 960px;
+}
+.box {
+	width: 464px;
+	height: 160px;
+}
+.piture {
+	width: 464px;
+}
+}
