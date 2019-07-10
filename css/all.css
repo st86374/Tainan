@@ -325,7 +325,7 @@ background: -o-linear-gradient(0deg,#ffc107 43%, #F7F7F7 91%);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 		 box-sizing: border-box;
-	margin: 15px;
+	margin: 10px;
 	cursor: default
 }
 @media(max-width:768px){
