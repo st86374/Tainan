@@ -163,7 +163,7 @@ position: -webkit-sticky;
     width: 40px;
 }
 .mb-menu{
-	display: none;
+	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
 	justify-content: space-between;
@@ -171,6 +171,7 @@ position: -webkit-sticky;
 	width: 100%;
 	position: absolute;
 	height: 0px;
+	overflow: hidden;
 	z-index: 100;
     transition: all .4s ease-in-out;
 }
@@ -178,7 +179,7 @@ position: -webkit-sticky;
 	position:relative
 }
 .mb-menu.open{
-display: flex
+height: 200px;
 }
 .mb-link1{
 	background: #dc3545;
@@ -193,7 +194,7 @@ display: flex
 	background: #007bff
 }
 .mb-menu>li{
-	width: 187px;
+	width: 50%;
 	height: 100px;
 }
 .mb-menu>li>a{
@@ -203,7 +204,7 @@ display: flex
 	font-size: 1.5em;
 }
 
-@media(max-width:375px){
+@media(max-width:768px){
 	.menu{
 		display: none
 	}
@@ -281,8 +282,7 @@ background: -o-linear-gradient(0deg,#dc3545 43%, #F7F7F7 91%);
 		max-width: 350px;
 		margin: 10px;
 	}
-}
-@media(max-width:375px){
+
 	.ac-right{
 		width: 0%;
 	}
@@ -340,8 +340,7 @@ background: -o-linear-gradient(0deg,#ffc107 43%, #F7F7F7 91%);
 	.btn-outline-dark{
 		margin: 5px
 	}
-}
-@media(max-width:375px){
+
 	.food-right{
 		width: 100%;
 	}
@@ -413,7 +412,7 @@ background: -o-linear-gradient(0deg,#28a745 43%, #F7F7F7 91%);
 	height: 100%;
 	opacity: .2;
 }
-@media(max-width:375px){
+@media(max-width:768px){
 	.view-right{
 		width: 0%;
 	}
@@ -478,8 +477,7 @@ background: -o-linear-gradient(0deg,#007bff 43%, #F7F7F7 91%);
 	.btn-outline-dark{
 		margin: 5px
 	}
-}
-@media(max-width:375px){
+
 	.hotel-right{
 		width: 100%;
 	}
@@ -537,7 +535,7 @@ footer{
 #hotArea{
 	width: 50%
 }
-@media(max-width:375px){
+@media(max-width:768px){
 	.jsbtn{
 		width: 74px;
 		height: 38px;
@@ -612,7 +610,7 @@ footer{
 #hotArea{
 	width: 50%
 }
-@media(max-width:375px){
+@media(max-width:768px){
 	.jsbtn{
 		width: 74px;
 		height: 38px;
@@ -679,7 +677,7 @@ footer{
 #hotArea{
 	width: 50%
 }
-@media(max-width:375px){
+@media(max-width:768px){
 	.jsbtn{
 		width: 74px;
 		height: 38px;
@@ -710,7 +708,7 @@ footer{
 	display: flex;
 	justify-content: right
 }
-@media(max-width:375px){
+@media(max-width:768px){
 	.card-footer{
 		display: block;
 		line-height: 1.5em
